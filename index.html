@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Frontend Mentor | Product preview card component</title>
+
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/im/favicon-32x32.png" />
+    </head>
+
+    <body>
+        <main class="l-main-section">
+            <div class="c-card-product">
+                <picture class="c-card-product__picture">
+                    <source media="(min-width: 660px)" srcset="./assets/img/image-product-desktop.jpg">
+                    <img src="./assets/img/image-product-mobile.jpg" alt="Perfume of Gabrielle Essence Eau de Parfum">
+                </picture>
+                <div class="c-card-product__info">
+                    <p class="c-card-product__subtitle">Perfume</p>
+                    <h1 class="c-card-product__title">Gabrielle Essence Eau De Parfum</h1>
+                    <p class="c-card-product__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                    <div class="c-card-product__price">
+                        <p>$149.99</p>
+                        <del class="c-card-product__old-price">
+                            <span class="c-sr-only">Old Price: </span> $169.99
+                        </del>
+                    </div>
+                    <div class="c-card-product__button">
+                        <button class="c-button" type="button">
+                            <img src="./assets/img/icon-cart.svg" alt aria-hidden="true">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="c-developer">
+                <p class="c-developer__text">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener" class="c-developer__link">Frontend Mentor</a>.
+                    Coded by <a href="https://github.com/JoseLuisColoma" target="_blank" rel="noopener" class="c-developer__link">jocodev</a>.
+                </p>
+            </div>
+        </main>
+    </body>
+</html>

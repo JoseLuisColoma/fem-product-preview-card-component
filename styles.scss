@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+@import
+'./sass/01_utilities/_functions.scss',
+'./sass/01_utilities/_fonts.scss',
+'./sass/01_utilities/_mixins.scss',
+'./sass/01_utilities/_variables.scss';
+
+@import
+'./sass/02_base/_override.scss',
+'./sass/02_base/_reset.scss';
+
+@import
+'./sass/03_layout/_l-main-section.scss';
+
+@import
+'./sass/04_components/_c-button.scss',
+'./sass/04_components/_c-developer.scss',
+'./sass/04_components/_c-screen-reader.scss',
+'./sass/04_components/_c-card-product.scss';
+
+@import
+'./sass/05_pages/_page.scss';
+
+
+/*
+Variables globales (que no son utilizadas)
+@import
+'./sass/06_global/_g--margin.scss',
+'./sass/06_global/_g--padding.scss',
+'./sass/06_global/_g--texto.scss';
+*/

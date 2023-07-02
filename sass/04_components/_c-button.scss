@@ -1,0 +1,23 @@
+.c-button {
+  width: 100%;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+
+  font-family: 'Montserrat';
+  font-size: 14px;
+  background-color: $theme-primary-color;
+
+  font-weight: 400;
+  color: $theme-background-color;
+
+  @include media-hover-effect() {
+      &:hover {
+          background-color: $theme-primary-color-alt;
+      }
+  }
+}

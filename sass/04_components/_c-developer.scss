@@ -1,0 +1,28 @@
+.c-developer {
+    margin-block: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom:30px;
+
+    &__link {
+        color: steelblue;
+    }
+
+    @include media-double-breakpoint-up($screen-sm, min-width, 36.25em, min-height) {
+        position: fixed;
+        bottom: 0.325rem;
+        width: 100%;
+    }
+
+    @include media-hover-effect() {
+        & a:hover  {
+            color: peru;
+        }
+    }
+
+
+    &__text{
+        color:black;
+    }
+
+}

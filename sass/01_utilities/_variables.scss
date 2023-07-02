@@ -1,0 +1,54 @@
+$font-family: (
+   "principal": "'Montserrat', sans-serif",
+   "alternativa": "'Fraunces', sans-serif;",
+);
+
+$colores: (
+  "BrightOrange": hsl(31, 77%, 52%),
+  "DarkCyan2": hsl(184, 100%, 22%),
+  "VeryDarkCyan": hsl(179, 100%, 13%),
+  "TransparentWhite": hsla(0, 0%, 100%, 0.75),
+  "VeryLightGray": hsl(0, 0%, 95%),
+  "Blanco": #ffffff,
+);
+
+$paddings : (0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px,160px);
+
+$margins : (0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px);
+
+$font-sizes : (12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 64px);
+$theme-line-height: 150%;
+
+$border-radius : (0px, 2px, 4px, 6px, 8px, 10px, 16px, 32px , 48px);
+
+$shadows : ("0 1px 3px hsla(0, 0%, 2%)", "0 4px 6px hsla(0, 0%, 50%)", "0 5px 15px hsla(0, 0%, 50%)", "0 10px 24px hsla(0, 0%, 50%)", "0 15px 35px hsla(0, 0%, 50%)");
+
+
+$theme-alt-font: "'Montserrat', sans-serif";
+$theme-text-font: "'Fraunces', sans-serif;";
+
+// Primary
+$theme-background-color: hsl(0, 0%, 100%);
+$theme-background-color-alt: hsl(30, 38%, 92%);
+$theme-primary-color: hsl(158, 36%, 37%);
+$theme-primary-color-alt: darken($theme-primary-color, 5%);
+
+// Neutral
+$theme-neutral-color: hsl(212, 21%, 14%);
+$theme-neutral-color-alt: lighten($theme-neutral-color, 5%);
+$theme-neutral-grayish-color: hsl(228, 12%, 48%);
+
+
+// Breakpoints
+$screen-sm: 36em;       //576px Large smartphones
+$screen-md: 48em;       //768px Small tablets
+$screen-lg: 62em;       //992px Tablets
+$screen-xl: 75em;       //1200px Desktops
+$screen-xxl: 87.5em;    //1400px Large desktops
+$screen-rwd: 41.25em;   //660px Custom device
+
+// Border shadow
+$theme-box-shadow: 0 0.063rem 0.188rem rgba($theme-neutral-color, 0.12),
+    0 0.063rem 0.125rem rgba($theme-neutral-color, 0.24);
+$theme-box-shadow-hover: 0 0.875rem 1.75rem rgba($theme-neutral-color, 0.25),
+    0 0.625rem 0.625rem rgba($theme-neutral-color, 0.22);

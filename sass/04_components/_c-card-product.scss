@@ -1,0 +1,77 @@
+
+  .c-card-product {
+    background: $theme-background-color;
+    box-shadow: $theme-box-shadow;
+    color: $theme-neutral-color;
+
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 37.5rem;
+    transition: all 0.3s ease-in-out;
+
+    &__info {
+        padding: 2rem;
+    }
+
+    &__picture img {
+        display: block;
+        @include img-fluid;
+    }
+
+    &__title {
+        font-size: 2.1rem;
+        font-weight: 700;
+        line-height: 0.95;
+        font-family: 'Fraunces';
+        margin-block: 1.2rem;
+    }
+
+    &__subtitle {
+        font-size: 0.8rem;
+        font-weight: 100;
+        color: $theme-neutral-grayish-color;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        letter-spacing: 0.35em;
+    }
+
+    &__description {
+        font-size: 0.9rem;
+        font-weight: normal;
+        color: $theme-neutral-grayish-color;
+        font-family: 'Montserrat';
+        line-height: 1.7;
+    }
+
+    &__price {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-block: 1.4rem;
+        font-family: 'Fraunces';
+        display: flex;
+        justify-content: flex-start;
+        gap: 1.7rem;
+        color: $theme-primary-color;
+    }
+  
+    &__old-price {
+        font-size: 0.9rem;
+        font-weight: normal;
+        color: $theme-neutral-grayish-color;
+        font-family: 'Montserrat';
+        margin-top: 10px;
+    }
+  
+    @include media-hover-effect {
+        &:hover {
+            box-shadow: $theme-box-shadow-hover;
+        }
+    }
+  
+    @include query($screen-rwd) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
